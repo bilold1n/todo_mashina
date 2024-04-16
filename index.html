@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="orab-hammasi">
+        <h2>Todo CAR</h2>
+
+        <form id="form">
+          <h5 class="title_yozuv">Car name</h5>
+          <input
+            id="searchinp"
+            type="text"
+            placeholder="Mashina nomi"
+            required
+          />
+        </form>
+        <form id="form1">
+          <h5 class="speed_yozuv">Speed</h5>
+          <input
+            id="searchinp1"
+            type="number"
+            placeholder="Mashina tezligi"
+            required
+          />
+        </form>
+        <form id="form2">
+          <h5 class="price_yozuv">Price($)</h5>
+          <input
+            id="searchinp2"
+            type="number"
+            placeholder="Mashinaning narxi"
+            required
+          />
+        </form>
+        <form id="form3">
+          <h5 class="img_yozuv">Image URL</h5>
+          <input
+            id="searchinp3"
+            type="text"
+            placeholder="Rasmining URL sini kiriting"
+            required
+          />
+          <div class="div"></div>
+        </form>
+        <form id="form4">
+          <h5 class="color_yozuv">Color</h5>
+          <input
+            id="searchinp4"
+            type="color"
+            placeholder="Mashinani rangini kiriting "
+            required
+          />
+          <div class="div"></div>
+        </form>
+        <button class="btn" type="submit">add</button>
+      </div>
+      <ul id="productList"></ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
